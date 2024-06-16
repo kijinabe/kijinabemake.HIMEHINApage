@@ -51,6 +51,7 @@ background-image: linear-gradient(135deg, #e6ba5d 0%, #9ac78a 100%);
 
 .feature img{
   position:relative;
+  width:50%
   clip: rect(80px,100px,1000px,1200px);
 }
 .feature-text{
