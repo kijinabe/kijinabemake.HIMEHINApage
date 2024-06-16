@@ -156,6 +156,7 @@
 
 @media (max-width: 800px){
   .recommended-cntents{
+    display: block;
     max-width: 100%;
   }
   .contents-category{
