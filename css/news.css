@@ -54,6 +54,13 @@
   background-color: #000000;
   margin-top: 1%;
 }
+
+.sokuhou_area{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 .sokuhou_area a{
   display: block;
   transition-duration: 0.2s;
@@ -64,6 +71,7 @@
 .sokuhou_area h2{
   text-align: center;
 }
+
 
 .news-list{
   margin-top: 2%;
