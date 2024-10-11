@@ -39,6 +39,7 @@
   padding-top: 2vh;
   z-index: 1;
 }
+
 .song_area:before{
   content: "";
   display: block;
@@ -47,6 +48,17 @@
   visibility: hidden;
 
 }
+
+.original-song{
+  width: 100%;
+  height: 30%;
+}
+
+.cover-song{
+  width: 100%;
+  height: 30%;
+}
+
 .live_area:before{
   content: "";
   display: block;
@@ -63,7 +75,7 @@
 }
 
 .contents-category{
-  background-color: #e1f4ff;
+  background-color: #cfe8f1;
   padding: 2% ;
   margin-bottom: 2%;
   border-radius: 5vw;
@@ -80,7 +92,9 @@
   height: 1vh;
   background-color: #000000;
   margin-top: 1%;
+  text-align: center;
 }
+
 .contents-list{
   margin-top: 2%;
   padding-left: 0%;
@@ -88,10 +102,12 @@
   margin-bottom: 10%;
 }
 
+.contents-list div{
+   padding-bottom: 5%;
+}
+
 .contents-list iframe{
   display: block;
-  width: 100%;
-  height: 50%;
 }
 .contents-list img{
   display: block;
@@ -115,6 +131,13 @@
 .contents-list img{
   width: 100%;
 }
+
+.song_area iframe,.live_area iframe,.goods_area img{
+  width: 80%;
+  height: 450px;
+  margin: auto;
+}
+
 .contents-menu{
   flex-shrink: 0;
   margin-right: 3%;
@@ -152,6 +175,11 @@
 .appeal-area{
   margin-top: 2vh;
   display: flex;
+}
+
+.goods_area img{
+  width: 80%;
+  height: auto;
 }
 
 @media (max-width: 800px){

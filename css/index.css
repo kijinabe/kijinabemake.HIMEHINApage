@@ -19,7 +19,7 @@
   margin-top: auto;
   margin-left: auto;
   margin-right: auto;
-  color: rgb(133, 237, 255);
+  color: aqua;
   font-weight: bold;
   text-shadow: 0.1vh 0.1vh 1vh #4b2c14;
   text-align: center;
@@ -81,10 +81,10 @@
 }
 .link-button:hover{
   background-color: rgb(255, 168, 235);
-  text-shadow: 0.2vw 0.2vw 0 aqua, -0.2vw -0.2vw 0 aqua,
-               -0.2vw 0.2vw 0 aqua,0.2vw -0.2vw 0 aqua,
-               0px 0.2vw 0 aqua, -0.2vw 0 aqua,
-               -0.2vw 0 0 aqua,0.2vw 0 0 aqua;
+  text-shadow: 0.2vw 0.2vw 0 #cfe8f1, -0.2vw -0.2vw 0 #cfe8f1,
+               -0.2vw 0.2vw 0 #cfe8f1,0.2vw -0.2vw 0 #cfe8f1,
+               0px 0.2vw 0 #cfe8f1, -0.2vw 0 #cfe8f1,
+               -0.2vw 0 0 #cfe8f1,0.2vw 0 0 #cfe8f1;
 }
 
 .header-heading{
